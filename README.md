@@ -137,6 +137,23 @@ Manual trigger →  destroy
 
 ---
 
+## Screenshots
+
+### CI/CD Pipeline — All Steps Green
+![CI/CD Pipeline](assets/pipeline.png)
+
+### AWS Lambda — Successful Test Invocation
+![Lambda Test](assets/lambda-test.png)
+
+### AWS Lambda — CloudWatch Monitoring
+![CloudWatch](assets/cloudwatch.png)
+
+### S3 Bucket — Versioning Enabled
+![S3 Bucket](assets/s3-bucket.png)
+
+### IAM Role — Least Privilege Policy
+![IAM Role](assets/iam-role.png)
+
 ## Lambda Function
 
 The function accepts any event payload, logs the request via Python's `logging` module (visible in CloudWatch), and returns a structured JSON response including the AWS request ID for traceability.
