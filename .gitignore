@@ -1,9 +1,16 @@
-
+# Terraform
 terraform/.terraform/
+terraform/.terraform.lock.hcl
 terraform/terraform.tfstate
 terraform/terraform.tfstate.backup
+terraform/*.tfvars
+*.tfplan
 
-
+# Lambda build artifacts
 lambda/*.zip
 
-terraform/.terraform/
+# OS & editor
+.DS_Store
+.idea/
+.vscode/
+*.swp

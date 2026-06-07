@@ -1,0 +1,7 @@
+# Copy this file to terraform.tfvars and fill in your values.
+# Never commit terraform.tfvars to version control.
+
+bucket_name          = "your-unique-bucket-name"
+aws_region           = "ap-south-1"
+lambda_function_name = "dataProcessorFunction"
+lambda_runtime       = "python3.13"
